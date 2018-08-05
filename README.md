@@ -2,9 +2,15 @@
 
 > A Vue.js project
 
+https://github.com/fraigo/vuetify-template
+
 ## Build Setup
 
 ``` bash
+
+# initialize project
+vue init vuetifyjs/pwa [my-projest name]
+
 # install dependencies
 npm install
 
