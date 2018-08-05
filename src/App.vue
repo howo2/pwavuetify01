@@ -74,7 +74,7 @@
 export default {
   data () {
     return {
-      clipped: false,
+      clipped: true,
       drawer: true,
       fixed: false,
       items: [
@@ -87,6 +87,11 @@ export default {
           title: 'User',
           icon: 'people',
           path: '/user/list'
+        },
+        {
+          title: 'Item',
+          icon: 'category',
+          path: '/item/list'
         }
       ],
       miniVariant: false,
@@ -98,3 +103,6 @@ export default {
   name: 'App'
 }
 </script>
+
+<style scoped>
+</style>

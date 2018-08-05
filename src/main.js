@@ -16,7 +16,10 @@ import {
   transitions
 } from 'vuetify'
 import '../node_modules/vuetify/src/stylus/app.styl'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
+Vue.use(VueAxios, axios)
 Vue.use(Vuetify, {
   components: {
     VApp,
